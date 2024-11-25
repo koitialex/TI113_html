@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<!-- alt + shift + f = atalho para formatar  -->
+<!-- ctrl + ; = adicionar comentário  -->
+
+<body>
+    <!-- Tabela de 3 linhas e 3 colunas -->
+    <table width="500px" border="2px">
+        <!-- 1 linha -->
+         <!-- th *3 = <th></th>
+                      <th></th>
+                      <th></th> -->
+                      <!-- th é escrito em negrito e deixa a palavra centralizado -->
+         <tr>
+            <th>linha 1 - col 1</th> 
+            <th>linha 1 - col 2</th>
+            <th rowspan="3">linha 1/2/3 - col 3</th>
+         </tr>
+         <!-- 2 linha -->
+         <tr>
+            <td align="left">linha 1 - col 1</td>
+            <td align="center">linha 1 - col 2</td>
+           
+         </tr>
+         <!-- 3 linha -->
+         <tr>
+            <td colspan="2">linha 1 - col 1 / co12</td>
+        
+         </tr>
+    </table>
+</body>
+
+</html>
