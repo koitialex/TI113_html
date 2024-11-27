@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <!-- input = local para digitar  -->
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>
+                Dados Pessoais
+            </legend>
+            <label for="txt_nome">
+                Nome:
+            </label>
+            <input required type="text" name="txt_nome" id="txt_nome" > <br>
+            <label for="txt_sobrenome">
+                Sobrenome:
+            </label>
+            <input required type="text" name="txt_sobrenome" id="txt_sobrenome"><br>
+            <label for="txt_data_de_nascimento">
+                Data de Nascimento:
+            </label>
+            <input required type="date" name="txt_data_de_nascimento" id="txt_data_de_nascimento"><br>
+            <label for="txt_sexo">
+                Sexo:
+            </label><br>
+            
+            <label for="rdb_masculino">
+                Masculino
+            </label>
+            <input type="radio" name="rdb_sexo" id="rdb_feminino"><br>
+            <label for="rdb_feminino">
+                Feminino
+            </label>
+            <input type="radio" name="rdb_sexo" id="rdb_outro"><br>
+            <label for="rdb_outro">
+                Outro
+            </label>
+            <input type="radio" name="rdb_masculino" id="rdb_masculino"><br> 
+
+            <label for="txt_cpf">
+                CPF:
+            </label>
+            <input required type="text" name="txt_cpf" id="txt_cpf"><br>
+
+            <label for="txt_email">
+                Email:
+            </label>
+            <input required type="email" name="txt_email" id="txt_email"><br>
+
+            <label for="txt.ddd">
+                DDD:
+            </label>
+            <input required type="number" name="txt.ddd" id="txt.ddd"><br>
+
+            <label for="txt.telefone">
+                telefone:
+            </label>
+            <input required type="number" name="txt.telefone" id="txt.telefone"><br>
+
+            <label for="txt.conhecimento">
+                conheço:
+            </label><br>
+            
+
+            <label for="txt_html">
+                html
+            </label>
+            <input type="checkbox" name="chk_css" id="chk_css"><br>
+
+            <label for="txt_css">
+                css
+            </label>
+            <input type="checkbox" nome="chk_js" id="chk_js"><br>
+
+            <label for="txt_js">
+                js
+            </label>
+            <input type="checkbox" name="chk_js" id="chk_js"><br>
+
+            <label for="slt_uf">
+                Estados
+            </label>
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+            <label for="txt_observacao"><br><br>
+                observação: 
+            </label>
+            <textarea name="txt_observacao" id="txt_observacao"></textarea><br>
+
+            <button id="btn_enviar namebtn_enviar" type="submit">
+                Enviar
+            </button>
+
+            <button type="reset">Apagar</button>
+        
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
