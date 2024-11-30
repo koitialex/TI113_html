@@ -21,7 +21,8 @@
                         </label>
                     </td>
                     <td>
-                        <input type="text" nome="txt_nome" id="txt_nome">
+                        <input type="text" nome="txt_nome" id="txt_nome"
+                        placeholder="Digite o nome do bixinho">
                     </td>
                 </tr>
                 <tr>
@@ -31,7 +32,8 @@
                         </label>
                     </td>
                     <td>
-                        <input type="text" nome="txt_endereco" id="txt_endereco">
+                        <input type="text" nome="txt_endereco" id="txt_endereco"
+                        placeholder="Digite o endereço">
                     </td>
                 </tr>
                 <tr>
@@ -41,7 +43,8 @@
                         </label>
                     </td>
                     <td>
-                        <input type="number" nome="txt_cep" id="txt_cep">
+                        <input maxlength="9" type="number" nome="txt_cep" id="txt_cep"
+                        placeholder="xxxxxx-xxx">
                     </td>
                 </tr>
                 <tr>
@@ -51,7 +54,8 @@
                         </label>
                     </td>
                     <td>
-                        <input type="email" nome="txt_email" id="txt_email">
+                        <input maxlength="100" type="email" nome="txt_email" id="txt_email"
+                        placeholder="Digite seu email">
                     </td>
                 </tr>
                 <tr>
@@ -61,7 +65,8 @@
                         </label>
                     </td>
                     <td>
-                        <input type="tel" name="txt_tel" id="txt_tel">
+                        <input type="tel" name="txt_tel" id="txt_tel"
+                        placeholder="Insira o seu número">
                     </td>
                 </tr>
             </table>
@@ -78,21 +83,22 @@
                         </label>
                     </td>
                     <td>
-                        <input type="text" nome="txt_nome_animal" id="txt_nome_animal">
+                        <input type="text" nome="txt_nome_animal" id="txt_nome_animal"
+                        placeholder="digite o nome do animal">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="txt_porte_cao">
+                        <label for="rdb_porte_cao">
                             Porte de cão:
                         </label>
                     </td>
                     <td>
-                        <input type="radio" name="txt_porte_cao" id="txt_medio">
-                        <label for="txt_pequeno">
+                        <input type="radio" name="rdb_porte_cao" id="rdb_pequeno">
+                        <label for="rdb_pequeno">
                             pequeno
                         </label>
-                        <input type="radio" name="txt_porte_cao" id="txt_grande">
+                        <input type="radio" name="txt_porte_cao" id="txt_medio">
                         <label for="txt_medio">
                             medio
                         </label>
@@ -171,7 +177,7 @@
                             Primeira opção de horário:
                         </label>
                     
-                        <input type="date" name="txt_primeira" id="txt_primeira">
+                        <input type="datetime-local" name="txt_primeira" id="txt_primeira">
                     </td>
                 </tr>
                 <tr>
@@ -180,7 +186,7 @@
                             Segunda opção de horário:
                         </label>
                     
-                        <input type="date" name="txt_segunda" id="txt_segunda">
+                        <input type="datetime-local" name="txt_segunda" id="txt_segunda">
                     </td>
                 </tr>
             </table>
