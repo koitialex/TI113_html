@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+    position: relative;
+    left: 10%;
+    bottom: 10%;
+}
+table {
+    border-bottom: 20px solid;
+    border-right: 20px solid #4b4848;
+    background-color: white;
+}
+div{
+    background: #eee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0 40px 0 40px;
+}
+
+.botoes {
+    margin: 10px;
+    /* top,right,bottom,left */
+    padding: 10px 5px 10px 5px;
+}
+
+#btn1{
+    background-color: blue;
+    color: #eee;
+}
+
+#btn2{
+    background-color: blueviolet;
+    color: #eee;
+}
+
+#btn3{
+    background-color: aqua;
+}

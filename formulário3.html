@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agendamento para banho e tosa</h1> <br>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+    <form action="" method="get">
+        <fieldset>
+            <table >
+                <legend>
+                    Identificação do dono do animal
+                </legend>
+                <tr>
+                    <td>
+                        <label for="txt_nome">
+                            Nome:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" nome="txt_nome" id="txt_nome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_endereco">
+                            Endereço:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" nome="txt_endereco" id="txt_endereco">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_cep">
+                            CEP:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="number" nome="txt_cep" id="txt_cep">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_email">
+                            Email:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="email" nome="txt_email" id="txt_email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_tel">
+                            Tel/cel:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="tel" name="txt_tel" id="txt_tel">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <table>
+                <legend>
+                    animal
+                </legend>
+                <tr>
+                    <td>
+                        <label for="txt_nome_animal">
+                            Nome:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" nome="txt_nome_animal" id="txt_nome_animal">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_porte_cao">
+                            Porte de cão:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="txt_porte_cao" id="txt_medio">
+                        <label for="txt_pequeno">
+                            pequeno
+                        </label>
+                        <input type="radio" name="txt_porte_cao" id="txt_grande">
+                        <label for="txt_medio">
+                            medio
+                        </label>
+                        <input type="radio" name="txt_porte_cao" id="txt_grande">
+                        <label for="txt_grande"> 
+                            grande
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="txt_tipo">
+                        Tipo de tosa:
+                    </label>
+                </td>
+                    <td>
+                        <select name="txt_tipo" id="txt_tipo">
+                            <option value="txt_tosa_tesoura">Tesoura</option>
+                            <option value="txt_tosa_máquina">máquina</option>
+                            <option value="txt_tosa_higiênica">higiênica</option>
+                            <option value="txt_tosa_bebê">bebê</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_observacao">
+                            Observação
+                        </label>
+                    </td>
+                    <td>
+                        <textarea name="txt_observacao" id="txt_observacao">  
+                        </textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Horário -(Não atendemos de domingo e segunda-feira)
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="txt_preferencia">
+                            Indique os dias da semana de seua preferência:
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="txt_preferencia" id="txt_terca">
+                        <label for="txt_terca">
+                            terça-feira
+                        </label>
+                        <input type="checkbox" name="txt_preferencia" id="txt_quarta">
+                        <label for="txt_quarta">
+                            Quarta-feira
+                        </label>
+                        <input type="checkbox" name="txt_preferencia" id="txt_quinta">
+                        <label for="txt_quinta">
+                            Quinta-feira
+                        </label>
+                        <input type="checkbox" name="txt_preferencia" id="txt_sexta">
+                        <label for="txt_sexta">
+                            Sexta-feira
+                        </label>
+                        <input type="checkbox" name="txt_preferencia" id="txt_sabado">
+                        <label for="txt_sabado">
+                            Sábado
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_primeira">
+                            Primeira opção de horário:
+                        </label>
+                    
+                        <input type="date" name="txt_primeira" id="txt_primeira">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txt_segunda">
+                            Segunda opção de horário:
+                        </label>
+                    
+                        <input type="date" name="txt_segunda" id="txt_segunda">
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <button id="btn_enviar" type="submit">
+            Enviar
+        </button>
+    
+        <button type="reset">
+            Apagar
+        </button>
+    </form>
+</body>
+</html>

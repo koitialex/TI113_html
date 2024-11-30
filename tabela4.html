@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela 4</title>
+    <link rel="stylesheet" href="css/style_tabela4.css">
 </head>
-<body style="background-color: grey;">
-    <table cellspacing="15px" width="80%"  cellpadding="10" style="color: white; background-color: black;">
+<body>
+    <table cellspacing="15px" width="80%"  cellpadding="10" >
         <tr>
             <td colspan="3" align="center"> 
                 <h1>Preços</h1> 
@@ -17,26 +18,38 @@
             </td>
         </tr>
         <tr>
-            <td width="33.3%" align="center" style="background-color: #10403B;">
-                <h3>Começar</h3><br>
-                livre<br><br>
-                Um usuário<br>
-                Um projeto<br><br>
-                <button style="background-color: #127369; color: white;"> Peça agora </button><br>
+            <td width="33.3%" align="center" >
+                <!-- id= é algo exclusivo a um elemento
+                class= para um grupo da mesma tag -->
+                <div>
+                    <h3>Começar</h3><br>
+                    Livre<br><br>
+                    Um usuário<br>
+                    Um projeto<br><br>
+                    <button id="btn1" class="botoes"> Peça agora </button><br>
+                </div>
             </td>
-            <td width="33.3%" align="center" style="background-color: #4C5958;">
-                <h3>Médio</h3><br>
-                $49,99<br><br>
-                100 usuários<br>
-                100 projetos<br><br>
-                <button style="background-color: #127369; color: white;" > Peça agora </button><br>
+            <td width="33.3%" align="center" ">
+                <div>
+
+                    <h3>Médio</h3><br>
+                    $49,99<br><br>
+                    100 usuários<br>
+                    100 projetos<br><br>
+                    <button id="btn2" class="botoes" > Peça agora </button><br>
+
+                </div>
             </td>
-            <td width="33.3%" align="center" style="background-color: #10403B;">
-                <h3>Especialista</h3><br>
-                $129,99<br><br>
-                Usuários ilimitado<br>
-                Projeto ilimitado<br><br>
-                <button style="background-color: #127369; color: white;">Peça agora </button> <br>
+            <td width="33.3%" align="center">
+                <div>
+
+                    <h3>Especialista</h3><br>
+                    $129,99<br><br>
+                    Usuários ilimitado<br>
+                    Projeto ilimitado<br><br>
+                    <button id="btn3" class="botoes">Peça agora </button> <br>
+
+                </div>
             </td>
         </tr>
     </table>
