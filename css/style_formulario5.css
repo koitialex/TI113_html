@@ -1,0 +1,51 @@
+.tab_cabecalho{
+    width: 100%;
+    background-color: grey;
+    padding: 10px 0;
+}
+.tab_nav{
+    width: 50%;
+    padding-bottom: 10px;
+}
+nav{
+    background-color: rgb(56, 55, 55); 
+    padding: 5px;
+    color: aliceblue;
+}
+
+table{
+    padding: 0 90px 0 90px;
+}
+table.tab_nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#txt_read_more{
+    text-decoration: none;
+    color: orange;
+}
+#col_informacao{
+    background-color: grey;
+    padding: 10px 10px;
+    color: aliceblue;
+}
+.informacao{
+    padding: 10px 10px;
+}
+
+td.space_image{
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+.tab_main{
+    border-bottom: 1px solid;
+    padding-bottom: 30p;
+}
+#link_text{
+    text-decoration: none;
+    color: orange;
+}
+main{
+    width: 100%;
+}

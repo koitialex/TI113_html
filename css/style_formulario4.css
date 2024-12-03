@@ -1,0 +1,27 @@
+form{
+    background-color: rgb(126, 163, 212);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body{
+    background-color: rgb(38, 38, 90);
+}
+h3{
+    color: rgb(38, 38, 90);
+}
+
+.titulo {
+    color: rgb(38, 38, 90) ;
+}
+.digitar {
+    background-color: rgb(38, 38, 90);
+    color: rgb(126, 163, 212) ;
+}
+
+button {
+    padding: 0 20px 0 20px ;
+    background-color: rgb(38, 38, 90);
+    color: rgb(126, 163, 212) ;
+}
