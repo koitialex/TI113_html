@@ -7,6 +7,9 @@
     width: 50%;
     padding-bottom: 10px;
 }
+#titulo_site{
+    color: aliceblue;
+}
 nav{
     background-color: rgb(56, 55, 55); 
     padding: 5px;
@@ -19,6 +22,13 @@ table{
 table.tab_nav a{
     text-decoration: none;
     color: white;
+}
+button{
+    background-color: orange;
+}
+input{
+    background-color: rgb(56, 55, 55);
+    border: 1px solid white;
 }
 
 #txt_read_more{
@@ -34,18 +44,33 @@ table.tab_nav a{
     padding: 10px 10px;
 }
 
-td.space_image{
+#informacao_linha{
+    background-color: grey;
+}
+
+.space_image{
     background-color: rgb(56, 55, 55);
     color: white;
+    
 }
 .tab_main{
     border-bottom: 1px solid;
-    padding-bottom: 30p;
+    padding-bottom: 30px;
 }
-#link_text{
+#link_text a{
     text-decoration: none;
     color: orange;
 }
 main{
     width: 100%;
+}
+.tab_final{
+    width: 100%;
+}
+.tab_footer{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    color: white;
+    background-color: black;
 }
