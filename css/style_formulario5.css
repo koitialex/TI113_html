@@ -1,3 +1,11 @@
+/* texto */
+h3,h5{
+    text-transform: uppercase;
+    color: grey;
+}
+p{
+    color: rgb(158, 161, 163);
+}
 /* header */
 .tab_cabecalho{
     width: 100%;
@@ -37,9 +45,12 @@ table{
     text-decoration: none;
     color: orange;
 }
-#col_informacao{
+#col_informacao {
     background-color: grey;
     padding: 10px 10px;
+    color: aliceblue;
+}
+.informacao_texto{
     color: aliceblue;
 }
 #col_informacao2{
@@ -60,8 +71,8 @@ table{
 }
 .small_image{
     color: white;
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     padding: 10px;
     margin: 20px;
 
@@ -73,7 +84,7 @@ table{
     height: 400px;
 }
 img{
-    border: 1px solid blue;
+    border: 1px solid rgb(197, 197, 209);
 }
 .tab_main{
     padding-bottom: 30px;
@@ -96,6 +107,7 @@ main{
 }
 .col_final{
     width: 33%;
+    align-items: center;
 }
 .letras_destaque{
     text-decoration: none;
@@ -105,8 +117,15 @@ main{
 .aboutus{
     display: flex;
     justify-content: space-around;
+    
 }
-span{
+.aboutus_texto{
+    padding-left: 15px;
+}
+.post_title{
+    text-transform: capitalize;
+}
+.admin{
     color: orange;
 }
 /* footer */
