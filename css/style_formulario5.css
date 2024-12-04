@@ -1,23 +1,17 @@
+/* header */
 .tab_cabecalho{
     width: 100%;
     background-color: grey;
     padding: 10px 0;
 }
-.tab_nav{
-    width: 50%;
-    padding-bottom: 10px;
-}
 #titulo_site{
     color: aliceblue;
 }
+/* nav */
 nav{
     background-color: rgb(56, 55, 55); 
     padding: 5px;
     color: aliceblue;
-}
-
-table{
-    padding: 0 90px 0 90px;
 }
 table.tab_nav a{
     text-decoration: none;
@@ -30,7 +24,15 @@ input{
     background-color: rgb(56, 55, 55);
     border: 1px solid white;
 }
+.tab_nav{
+    width: 50%;
+    padding-bottom: 10px;
+}
 
+table{
+    padding: 0 90px 0 90px;
+}
+/* infromação imagem grande */
 #txt_read_more{
     text-decoration: none;
     color: orange;
@@ -40,6 +42,9 @@ input{
     padding: 10px 10px;
     color: aliceblue;
 }
+#col_informacao2{
+    width: 50%;
+}
 .informacao{
     padding: 10px 10px;
 }
@@ -48,14 +53,32 @@ input{
     background-color: grey;
 }
 
-.space_image{
+.tree_image{
+    width: 100%;
+    
+
+}
+.small_image{
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+
+}
+.big_image{
     background-color: rgb(56, 55, 55);
     color: white;
-    
+    width: 1300px;
+    height: 400px;
+}
+img{
+    border: 1px solid blue;
 }
 .tab_main{
-    border-bottom: 1px solid;
     padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
 }
 #link_text a{
     text-decoration: none;
@@ -67,6 +90,26 @@ main{
 .tab_final{
     width: 100%;
 }
+.img_final{
+    width: 125px;
+    height: 125px;
+}
+.col_final{
+    width: 33%;
+}
+.letras_destaque{
+    text-decoration: none;
+    color: orange;
+    
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    color: orange;
+}
+/* footer */
 .tab_footer{
     width: 100%;
     padding-top: 10px;
@@ -74,3 +117,4 @@ main{
     color: white;
     background-color: black;
 }
+
